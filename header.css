@@ -29,9 +29,9 @@ header {
 .main-theme{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:inline-block;
-    border: 2px solid black;
-    border-radius: 5px;
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .main-section{
@@ -42,4 +42,28 @@ header {
 .fire {
     color: crimson;
     text-decoration: none;
+}
+ 
+ footer{
+    background-color: #00008b;
+    color: whitesmoke;
+ }
+ 
+.fooder {
+    height: 60px;
+}
+
+.footer-menu {
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer-menu li {
+    margin: 10px;
+    display: inline;
+}
+
+.copy-light {
+    text-align: center;
 }
