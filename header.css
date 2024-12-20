@@ -4,10 +4,11 @@ header {
   height: 100px;
   background-color: #99ccff;
   align-items: center;
+  border-radius: 5px;
 }
  
 .title {
-  margin-right: auto;
+  margin-right:auto;
   text-decoration: underline;
 }
  
@@ -23,4 +24,22 @@ header {
 .color{
  text-decoration: none;
  color: black;
+}
+
+.main-theme{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.main-section{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.fire {
+    color: crimson;
+    text-decoration: none;
 }
